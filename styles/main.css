@@ -25,7 +25,7 @@ nav {
 }
 
 .nav-links a,
-.nav-actions a {
+.auth-links a {
     text-decoration: none;
     color: #111;
 }
@@ -61,10 +61,4 @@ nav {
 
 .hero-image {
     flex: 1;
-}
-
-.hero-image img {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
 }
