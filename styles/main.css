@@ -108,3 +108,47 @@ nav {
     }
 
 }
+
+.product-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.product-card h3 {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.product-card p {
+    margin-top: 5px;
+    color: #555;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.featured-products {
+    padding: 80px 60px;
+}
+
+.featured-products h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
