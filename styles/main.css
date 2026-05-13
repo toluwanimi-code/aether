@@ -28,6 +28,7 @@ nav {
 .auth-links a {
     text-decoration: none;
     color: #111;
+    transition: color 0.2s ease;
 }
 
 .logo {
@@ -218,4 +219,9 @@ header {
     background-color: white;
     z-index: 100;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.nav-links a:hover {
+    color: #555;
+    border-bottom: 1px solid #111;
 }
