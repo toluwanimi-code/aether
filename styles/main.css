@@ -152,3 +152,24 @@ nav {
 .product-card:hover {
     transform: translateY(-5px);
 }
+
+.brand-statement {
+    background-color: #111;
+    color: white;
+    padding: 80px 60px;
+    text-align: center;
+}
+
+.brand-statement h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.brand-statement p {
+    font-size: 16px;
+    color: #aaa;
+}
