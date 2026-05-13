@@ -97,7 +97,6 @@ nav {
 
 
 @media (max-width: 768px) {
-
     .hero {
         flex-direction: column;
         text-align: center;
@@ -108,6 +107,15 @@ nav {
         max-width: 100%;
     }
 
+    .footer-inner {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 .product-card img {
@@ -224,4 +232,17 @@ header {
 .nav-links a:hover {
     color: #555;
     border-bottom: 1px solid #111;
+
+}
+
+.nav-links {
+    display: none;
+}
+
+.auth-links {
+    display: none;
+}
+
+nav {
+    justify-content: center;
 }
