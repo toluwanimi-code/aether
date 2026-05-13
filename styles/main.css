@@ -173,3 +173,41 @@ nav {
     font-size: 16px;
     color: #aaa;
 }
+
+footer {
+    background-color: #111;
+    color: #aaa;
+    padding: 40px 60px;
+    border-top: 1px solid #222;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-brand {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+.footer-links {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #aaa;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+.footer-copy {
+    font-size: 14px;
+}
